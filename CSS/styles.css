@@ -146,9 +146,12 @@ footer {
 	}
 
 .secondBox{
-	
+	width: 150px;
 	float: right;
 	clear: both;
+	background-color: #f49354;
+	padding: 8px;
+	
 	}
 
 col-xs-pull-0{right:auto}
