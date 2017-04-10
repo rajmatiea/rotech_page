@@ -140,17 +140,17 @@ footer {
 	}
 
 .firstBox{
-	width: 400px;
+	width: 40%;
 	float: left;
-	clear: both;
+	clear: right;
 	}
 
 .secondBox{
-	width: 150px;
+	width: 10%;
 	float: right;
-	clear: both;
+	clear: left;
 	background-color: #f49354;
-	padding: 8px;
+	padding: 2px;
 	
 	}
 
