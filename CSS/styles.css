@@ -103,7 +103,7 @@ body {
 header{
 	padding-top:15px;
 	padding-left:20px;
-	padding-bottom: 10px;
+	padding-bottom: 4%;
 	background-size: cover;
         font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
@@ -160,6 +160,7 @@ col-xs-pull-0{right:auto}
 
 .date {
 	float: right;
+	clear: both;
 }
 
 blockquote, address, .page-links a:hover, .post-format-wrap {border-color:#eb2326}
