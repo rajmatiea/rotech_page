@@ -160,10 +160,10 @@ col-xs-pull-0{right:auto}
 
 .date {
 	float: right;
-	clear: left;
+	clear: none;
 	padding-right: 15px;
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-	font-size: 9px;
+	font-size: 10px;
 	color: red;
 }
 
