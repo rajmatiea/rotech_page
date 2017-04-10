@@ -104,8 +104,9 @@ header{
 	padding-top:15px;
 	padding-left:20px;
 	padding-bottom: 10px;
-	width: cover;
-	}
+	background-size: cover;
+        font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
 	
 
 footer {
