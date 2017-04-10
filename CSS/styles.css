@@ -57,7 +57,7 @@ body {
 #LayoutDiv1 {
 	clear: both;
 	float: left;
-	margin-left: 10px;
+	padding: 20px;
 	width: 100%;
 	display: block;
 	font-family:Verdana, Geneva, sans-serif;
@@ -139,7 +139,13 @@ footer {
 	text-align: center;
 	}
 
+.firstBox{
+	width: 50%;
+	}
 
+.secondBox{
+	width: 20%;
+	}
 
 
 blockquote, address, .page-links a:hover, .post-format-wrap {border-color:#eb2326}
