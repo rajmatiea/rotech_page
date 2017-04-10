@@ -164,6 +164,7 @@ col-xs-pull-0{right:auto}
 	padding-right: 15px;
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	font-size: 9px;
+	color: red;
 }
 
 blockquote, address, .page-links a:hover, .post-format-wrap {border-color:#eb2326}
