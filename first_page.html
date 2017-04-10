@@ -30,6 +30,10 @@ Do the following if you're using your customized build of modernizr (http://www.
 </head>
 	<header>
     	 <img src="images/logo.png" alt="" width="220" height="70"  > 
+		<div class="date">
+			<p id="demo"></p>
+		</div>
+		
     </header>
 
 <body>
@@ -94,6 +98,12 @@ Do the following if you're using your customized build of modernizr (http://www.
 <script type="text/javascript">
 var Accordion1 = new Spry.Widget.Accordion("Accordion1");
   </script>
+	
+<script>
+document.getElementById("demo").innerHTML = Date();
+</script>
+	
+	
 </body>
 	<footer> Useful links  </footer>
 
