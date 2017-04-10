@@ -103,9 +103,9 @@ body {
 header{
 	padding-top:15px;
 	padding-left:20px;
-	padding-bottom: 4%;
+	padding-bottom: 15px;
 	background-size: cover;
-        font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+      
 }
 	
 
@@ -162,6 +162,8 @@ col-xs-pull-0{right:auto}
 	float: right;
 	clear: left;
 	padding-right: 15px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 9px;
 }
 
 blockquote, address, .page-links a:hover, .post-format-wrap {border-color:#eb2326}
