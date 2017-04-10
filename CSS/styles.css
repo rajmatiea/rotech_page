@@ -141,11 +141,15 @@ footer {
 
 .firstBox{
 	width: 50%;
+	float: left;
 	}
 
 .secondBox{
 	width: 20%;
+	float: right;
 	}
+
+col-xs-pull-0{right:auto}
 
 
 blockquote, address, .page-links a:hover, .post-format-wrap {border-color:#eb2326}
