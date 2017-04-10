@@ -142,11 +142,13 @@ footer {
 .firstBox{
 	width: 50%;
 	float: left;
+	clear: both;
 	}
 
 .secondBox{
 	width: 20%;
 	float: right;
+	clear: both;
 	}
 
 col-xs-pull-0{right:auto}
