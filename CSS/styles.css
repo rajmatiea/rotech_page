@@ -160,7 +160,8 @@ col-xs-pull-0{right:auto}
 
 .date {
 	float: right;
-	clear: both;
+	clear: left;
+	padding-right: 15px;
 }
 
 blockquote, address, .page-links a:hover, .post-format-wrap {border-color:#eb2326}
