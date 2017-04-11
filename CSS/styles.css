@@ -184,6 +184,7 @@ aside{
 
 section{
 	float: right;
+	clear: both;
 	width: 40%;
 	padding-top: 12px;
 	padding-left: 1%;
