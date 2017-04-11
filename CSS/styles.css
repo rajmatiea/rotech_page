@@ -177,7 +177,7 @@ aside{
 	width: 50%;
 	padding-top: 12px;
 	padding-right: 1%;
-	font-family: "Times New Roman", Times, serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 1.25em;
 	color: #996666;
 	
@@ -204,24 +204,24 @@ col-xs-pull-0{right:auto}
 	float: right;
 	clear: none;
 	padding-right: 15px;
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-family: Verdana, Geneva, sans-serif";
 	font-size: 10px;
 	color: red;
 }
 
 h4 {
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-	color: #AB06A7;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #20247F;
 }
 
 h5 {
-	font-family: "Verdana, Geneva, sans-serif;
+	font-family: Verdana, Geneva, sans-serif;
 	color: #3D1F7F;
 	font-size: 3.5em;
 }
 
 h6 {
-	font-family: Times;
+	font-family: Arial, Helvetica, sans-serif;
 	color: #7F6217;
 	font-size: 2.5;
 }
