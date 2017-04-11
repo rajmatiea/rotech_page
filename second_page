@@ -13,7 +13,11 @@
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
  <link href="CSS/styles.css" rel="stylesheet" type="text/css">
  <link href="SpryAssets/SpryAccordion.css" rel="stylesheet" type="text/css">
+ 
+   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
 
+ 
 <!-- 
 To learn more about the conditional comments around the html tags at the top of the file:
 paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
@@ -67,33 +71,58 @@ Do the following if you're using your customized build of modernizr (http://www.
 <div class="gridContainer clearfix">
 
   <div id="LayoutDiv1"> 
-  
-  		<div id="Accordion1" class="Accordion" tabindex="0">
-  		  
-          <div class="AccordionPanel">
-  		    	<div class="AccordionPanelTab">Requesting IT Assistance</div>
-  		    	<div class="AccordionPanelContent"><a href="test.pdf">Sample data link</a>  
-				<p> RSG Quick Tips for Support </p>   </div>
-		              
-	      </div>
-          
-  		  <div class="AccordionPanel">
-  		    	<div class="AccordionPanelTab">RSG Service & Support Ticketing System</div>
-  		    	<div class="AccordionPanelContent">Tool for submitting issues to IT
-            	<a href="test.pdf" target="_self">Ticketing System Quick Reference (Updated 6/27/2016)</a>  </div>
-	      </div>
-          
-          <div class="AccordionPanel">
-  		    	<div class="AccordionPanelTab">Webtracker</div>
-  		    	<div class="AccordionPanelContent">Tool for assigning Rotech property to locations and people  </div>
-	      </div>
-          
-          <div class="AccordionPanel">
-  		    	<div class="AccordionPanelTab">Asset Tracker</div>
-  		    	<div class="AccordionPanelContent">Tool for assigning Rotech property to locations and people</div>
-	      </div>
-       
-    </div>
+		<div id="accordion">
+  <h3>Section 1</h3>
+  <div>
+    <p>
+    Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+    ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+    amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+    odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+    </p>
+  </div>
+  <h3>Section 2</h3>
+  <div>
+    <p>
+    Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+    purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+    velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+    suscipit faucibus urna.
+    </p>
+  </div>
+  <h3>Section 3</h3>
+  <div>
+    <p>
+    Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+    Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+    ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+    lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+    </p>
+    <ul>
+      <li>List item one</li>
+      <li>List item two</li>
+      <li>List item three</li>
+    </ul>
+  </div>
+  <h3>Section 4</h3>
+  <div>
+    <p>
+    Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+    et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+    faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+    mauris vel est.
+    </p>
+    <p>
+    Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+    inceptos himenaeos.
+    </p>
+  </div>
+</div>  
+
+
+
+
   </div>
 </div>
 
@@ -108,9 +137,14 @@ Do the following if you're using your customized build of modernizr (http://www.
 <script type="text/javascript">
 var Accordion1 = new Spry.Widget.Accordion("Accordion1");
   </script>
-
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script src="javascript/script.js"></script>
-  
+  <script>
+  $( function() {
+    $( "#accordion" ).accordion();
+  } );
+  </script>
 
 </body>
 	<footer> Useful links  </footer>
