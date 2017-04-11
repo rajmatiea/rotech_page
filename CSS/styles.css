@@ -159,9 +159,9 @@ footer {
 .date {
 	float: right;
 	clear: none;
-	padding-right: 15px;
+	padding-right: 2%;
 	font-family: Verdana, Geneva, sans-serif;
-	font-size: 10px;
+	font-size: 9px;
 	color: red;
 }
 
