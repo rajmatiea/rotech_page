@@ -189,7 +189,7 @@ section{
 	padding-left: 1%;
 	font-family: "Times New Roman", Times, serif;
 	font-size: 1em;
-	color: #996666;
+	
 	}
 
 =======
@@ -203,6 +203,12 @@ col-xs-pull-0{right:auto}
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	font-size: 10px;
 	color: red;
+}
+
+h4 {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: #AB06A7;
+
 }
 
 blockquote, address, .page-links a:hover, .post-format-wrap {border-color:#eb2326}
