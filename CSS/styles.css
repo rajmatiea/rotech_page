@@ -61,7 +61,7 @@ body {
 	width: 100%;
 	display: block;
 	font-family:Verdana, Geneva, sans-serif;
-	color: #0000CC;
+	/*color: #0000CC;*/
 }
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
