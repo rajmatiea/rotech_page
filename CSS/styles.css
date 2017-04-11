@@ -215,13 +215,14 @@ h4 {
 }
 
 h5 {
-	font-family: "Arial;
+	font-family: "Verdana, Geneva, sans-serif;
 	color: #3D1F7F;
 	size: 2.5em;
 }
 
 h6 {
-	color: #1F1D1A;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #7F6217;
 	size: 1.25;
 }
 
