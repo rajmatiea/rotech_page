@@ -280,57 +280,6 @@ h6 {
 
 
 
-.nav, dropdown, dropbtn{
-	text-align: center;
-	width: 100%;
-	}
-
-.nav ul, dropdown,dropbtn {
-  list-style: none;
-  background-color: #33CC99;
-  text-align: center;
-  padding: 0;
-  margin: 0;
-
-}
-.nav li, dropdown,dropbtn {
-  font-family: roboto;
-  font-size: 1em;
-  line-height: 23px;
-  height: 23px;
-  border-bottom: 1.5px solid #888;
-}
- 
-.nav a,dropdown,dropbtn {
-  text-decoration: none;
-  color: #66CC99;
-  display: list-item;
-  transition: .3s background-color;
-}
- 
-.nav a:hover, dropdown,dropbtn {
-  background-color: #99FFCC;
-}
- 
-.nav a.active, dropdown,dropbtn {
-  background-color: #2C7349;
-  color: #CCCCCC;
-  cursor: default;
-}
-
-.nav a:visited, dropdown,dropbtn {
-	color: #993300;
-}
-
-.nav a:link {
-	color: #000000;
-}
- 
-.nav a:active {
-	color: #CCCCCC;
-} 
-
-
 
 
 
