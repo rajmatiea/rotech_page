@@ -3,9 +3,37 @@
    Note: Fluid media requires that you remove the media's height and width attributes from the HTML
    http://www.alistapart.com/articles/fluid-images/ 
 */
-img, object, embed, video {
-	max-width: 100%;
+
+
+img {
+height:auto !important;
+max-width:100% !important;
+-webkit-box-sizing: border-box !important; /* Safari/Chrome, other WebKit */
+-moz-box-sizing: border-box !important;    /* Firefox, other Gecko */
+box-sizing: border-box !important;         /* Opera/IE 8+ */
 }
+
+
+
+a img, fieldset, img  {	border: none; }
+
+/*.mosimage  {
+	padding: 0;
+	border:1px solid #333333;
+	margin:6px;	}
+
+.mosimage img  {
+	padding: 0;
+	margin: 0!important; }
+
+.mosimage_caption {
+	background:#333333;
+	border-top:1px solid #333333;
+	color:#FFFFFF;
+	font-size:8pt;
+	margin-top:2px;
+	padding:1px 2px;}
+*/
 
 .myImg {
     display: block;
